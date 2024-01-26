@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Lalezar';
+    src: url("../fonts/lalezar.ttf") format("truetype"),
+         url("../fonts/lalezar.woff") format("woff");
+}
+@font-face {
+    font-family: 'Vazir';
+    src: url("../fonts/Vazir.ttf") format("truetype");
+}
+body{
+    font-family: 'Vazir', serif;
+}
+header{
+    background-color: #37517e;
+    color: #ffff;
+}
+header nav h2{
+    text-align: center;
+    letter-spacing: 10px;
+    padding: 30px;
+}
+header .intro{
+    padding: 50px;
+}
+header .intro .container .row{
+    align-items: center;
+}
+header .intro .container .row .title{
+    font-family: 'Lalezar', serif;
+    font-size: 30px;
+}
+header .intro .container .row .desc{
+    color: #cbcbcb;
+    line-height: 30px;
+    text-align: justify;
+    padding: 20px 0 20px 15px;
+    font-size: 17px;
+}
+header .intro .container .row .start-btn{
+    all: unset;
+    font-size: 20px;
+    border: 1px solid #ffff;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+header .intro .container .row .start-btn:hover{
+    background-color: #ffff;
+    color: #37517e;
+}
+.team .container{
+    padding-bottom: 50px;
+}
+.team .container .section_title{
+    font-family: 'Lalezar', serif;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+.team .container .row .team_card{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(17, 17, 26, 0.1) 0 4px 16px, rgba(17, 17, 26, 0.1) 0 8px 24px, rgba(17, 17, 26, 0.1) 0 16px 56px;
+    margin: 20px 5px;
+    text-align: center;
+    transition: all 0.5s;
+}
+.team .container .row .team_card:hover{
+    transform: scale(1.05);
+}
+.team .container .row .team_card .team_card_name{
+    font-weight: bold;
+    color: #12595E;
+    padding: 10px;
+    font-size: 25px;
+}
+.team .container .row .team_card .team_card_job{
+    color: #b3b3b3;
+    padding: 10px;
+    font-size: 16px;
+}
+.team .container .row .team_card .team_card_desc{
+    text-align: justify;
+    padding: 20px 20px 30px;
+}
+.course .container{
+    padding-bottom: 70px;
+}
+.course .container .course_title{
+    font-family: 'Lalezar', serif;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+.course .container .row .course_item{
+    border: 1px solid #b3b3b3;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.course .container .row .course_item:hover{
+    transform: scale(1.05);
+}
+.course .container .row .course_item .course_item_name{
+    font-weight: bold;
+    padding: 10px 10px 40px;
+}
+.course .container .row .course_item .divider{
+    border: none;
+    height: 1px;
+    background-color: #c7c6c6;
+}
+.course .container .row .course_item .course_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+}
+.course .container .row .course_item .course_footer .course_item_btn{
+    all: unset;
+    padding: 10px 15px;
+    background-color: #37517e;
+    border-radius: 5px;
+    color: #ffff;
+}
+footer{
+    background-color: #37517e;
+    color: #ffff;
+}
+footer .container .row{
+    align-items: center;
+    padding: 80px 0 50px;
+}
+footer .container .row .footer_title{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+footer .container .row .footer_desc{
+    padding: 10px 0;
+    line-height: 30px;
+}
